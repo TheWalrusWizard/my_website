@@ -3,3 +3,7 @@ body {
   font-family: arial;
   text-align: center
 }
+a {
+  background-color: powderblue;
+  color: black;
+}
