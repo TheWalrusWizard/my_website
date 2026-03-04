@@ -2,8 +2,9 @@ body {
   background-color: aquamarine;
   font-family: arial;
   text-align: center;
-  background-image: url("../images/banner.png");
-  background-repeat: no-repeat;
+  background-image: url("../banner.png"), url("../banner.png");
+  background-position: right top, left top;
+  background-repeat: repeat-y, repeat-y;
 }
 a {
   background-color: powderblue;
@@ -11,6 +12,6 @@ a {
   width: 300px;
   border: 2px solid green;
   padding: 10px;
-  margin: 20px;
+  margin: 19px;
   text-decoration: none;
 }
