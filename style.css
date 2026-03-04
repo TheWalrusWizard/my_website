@@ -6,4 +6,6 @@ body {
 a {
   background-color: powderblue;
   color: black;
+  width: 300;
+  border: 10px solid green;
 }
